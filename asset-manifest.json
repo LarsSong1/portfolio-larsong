@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio-larsong/static/css/main.3577fd74.css",
+    "main.js": "/portfolio-larsong/static/js/main.6dcdc8d9.js",
+    "static/media/tourbyecu.svg": "/portfolio-larsong/static/media/tourbyecu.503610539f2c3cd509ae9106361ab4e6.svg",
+    "static/media/goats.svg": "/portfolio-larsong/static/media/goats.bb7f781e42ec968656d757ef290c700e.svg",
+    "static/media/medicaldesign.svg": "/portfolio-larsong/static/media/medicaldesign.7af730be65d7d49141113d94a13b5f40.svg",
+    "static/media/human-dog.svg": "/portfolio-larsong/static/media/human-dog.bc92e4dc4e8e89a8bd5a464b68f5d9a4.svg",
+    "static/media/logo footer.svg": "/portfolio-larsong/static/media/logo footer.94aff0f10d8638ea317ab00ac5768ec5.svg",
+    "static/media/DevSpot.svg": "/portfolio-larsong/static/media/DevSpot.4322387dd3c7c49f88c67d48bc2eb5af.svg",
+    "static/media/duolingo-symbol-icon.svg": "/portfolio-larsong/static/media/duolingo-symbol-icon.fbf01c9386c0d9d2357cdf3da3e442b7.svg",
+    "static/media/Tyres&M2logo.svg": "/portfolio-larsong/static/media/Tyres&M2logo.eaa63961cb46919b7b331fb59df54eb1.svg",
+    "static/media/react-2.svg": "/portfolio-larsong/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "index.html": "/portfolio-larsong/index.html",
+    "static/media/whatsapp-svgrepo-com.svg": "/portfolio-larsong/static/media/whatsapp-svgrepo-com.0e9d1475aeaf2fd8af65120d3c6f82fe.svg",
+    "static/media/python-5.svg": "/portfolio-larsong/static/media/python-5.e6d7dc739a91892bbf1f6262412046dd.svg",
+    "static/media/logo-javascript.svg": "/portfolio-larsong/static/media/logo-javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/linkedin-icon.svg": "/portfolio-larsong/static/media/linkedin-icon.f10c9de5cd3d33321b434c21192b499d.svg",
+    "static/media/telegram-1.svg": "/portfolio-larsong/static/media/telegram-1.89d23a21f9cbdc309acc7e6db5d0a5fc.svg",
+    "static/media/django.svg": "/portfolio-larsong/static/media/django.0779fca292c0a723b464bcb7534f802c.svg",
+    "static/media/visual-studio-code-1.svg": "/portfolio-larsong/static/media/visual-studio-code-1.b8b1e001813039750e6c05c236ab0d46.svg",
+    "static/media/figma-1.svg": "/portfolio-larsong/static/media/figma-1.72ff35026c53ba574aef54c980db0e8d.svg",
+    "static/media/css-3.svg": "/portfolio-larsong/static/media/css-3.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html-1.svg": "/portfolio-larsong/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "main.3577fd74.css.map": "/portfolio-larsong/static/css/main.3577fd74.css.map",
+    "main.6dcdc8d9.js.map": "/portfolio-larsong/static/js/main.6dcdc8d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3577fd74.css",
+    "static/js/main.6dcdc8d9.js"
+  ]
+}
