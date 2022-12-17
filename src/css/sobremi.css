@@ -1,0 +1,278 @@
+/* ---Seccion sobre mi */
+/* eslogan, titulo e imagen */
+.contenedor-sobremi{
+    padding-top: 20vh;
+
+
+    
+}
+
+.contenedor-sobremi .texto h1{
+    font-size: var(--tamaño-titulo);
+    font-weight: bold;
+    padding-bottom: 30px;
+
+}
+
+.contenedor-sobremi .texto h2{
+    text-align: justify;
+    font-size: var(--tamaño-texto);
+    font-weight: 400;
+}
+
+.contenedor-sobremi .texto p{
+    font-size: var(--tamaño-texto);
+    color: var(--color-naranja);
+    font-weight: bold;
+}
+
+
+/* habilidades */
+
+.contenedor-habilidades{
+    margin-top: 10vh;
+}
+.contenedor-habilidades h1{
+   font-size: var(--tamaño-titulo);
+   font-weight: bold;
+}
+
+
+
+/* ---Seccion Habilidades */
+/* habilidades */
+
+
+.programas{
+  height: 600px;
+  min-height: 600px;
+}
+.tool{
+    position: relative;
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+              -20px -20px 60px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: boxtools;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin: 20px;
+    
+  }
+
+
+@keyframes boxtools{
+    0%{
+    }
+    50%{
+      transform: translateY(-25px);
+    }
+    75%{
+      transform: translateY(25px);
+    }
+    100%{
+      transform: translateY(0px);
+    }
+    
+}
+
+
+
+
+
+
+
+
+  /* level tools */
+  .level span{
+    width: 18px;
+    height: 8px;
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 10px;
+    border: 1px solid var(--c-tittle);
+  }
+
+  .tool img {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    padding-right: 20px;
+  }
+
+  .tool h2{
+    font-size: var(--tamaño-texto);
+  }
+
+  /* html */
+  .level .level1, .level .level2, .level .level3{
+    background-color: var(--color-turqueza);
+  }
+
+  /* css */
+  .l-css .level3{
+    background-color: white;
+  }
+
+  /* figma */
+  .l-figma .level3{
+    background-color: white;
+  }
+
+  /* python */
+  /* .l-python .level3{
+    background-color: white;
+  } */
+
+  /* django */
+  .l-django .level3{
+    background-color: white;
+  }
+
+  /* javascript */
+
+  .l-javascript .level2, .l-javascript .level3{
+    background-color: white;
+  }
+
+  /* vscode */
+  
+
+  /* level english */
+  .l-english .level3{
+    background-color: white;
+  }
+
+
+  .l-react .level3{
+    background-color: white;
+  }
+
+  .tool1{
+    animation-delay: 0s;
+  }
+  .tool2{
+
+    animation-delay: 4s;
+  }
+  .tool3{
+
+    animation-delay: 8s;
+  }
+  .tool4{
+   
+    animation-delay: 12s;
+  }
+  .tool5{
+    animation-delay: 16s;
+  }
+  .tool6{
+  
+    animation-delay: 20s;
+  }
+  .tool7{
+   
+    animation-delay: 24s;
+  }
+  .tool8{
+    
+    animation-delay: 28s;
+  }
+
+  .tool9{
+    animation-delay: 32s;
+  }
+
+
+/* ---Seccion email sobre mi */
+.contenedor-idea{
+    height: 100%;
+    margin-top: 10vh;
+}
+
+
+.programas{
+  height: 600px;
+
+}
+.contenedor-idea h2{
+    font-size: var(--tamaño-subtitulo);
+    font-weight: 100;
+
+}
+
+.contenedor-idea h1{
+    font-size: var(--tamaño-titulo);
+    font-weight: bold;
+}
+
+.boton-contacto{
+    transform: translateY(0%);
+    width: 50%;
+}
+
+
+
+
+
+@media screen and (max-width: 700px){
+  .contenedor-sobremi .texto h1, .contenedor-habilidades h1, .contenedor-idea h1{
+    font-size: 40px;
+  }
+
+
+
+  .idea-contenedor{
+    margin-top: 90vh;
+    margin-bottom: 70vh;
+  }
+  .programas{
+    height: 1500px;
+
+  }
+
+
+
+  
+
+  
+
+  
+}
+
+
+@media screen and (max-width: 400px){
+  .contenedor-habilidades{
+    height: 1200px;
+
+  }
+
+
+  .idea-contenedor{
+  
+  }
+
+  .programas{
+   height: 1900px;
+
+  }
+}
+
+
+
+@media screen and (max-width: 350px){
+  
+  .idea-contenedor{
+    margin-top: 200vh;
+  }
+
+}

@@ -1,0 +1,241 @@
+/* ---Seccion Clientes */
+.business{
+    height: 650px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.business h2 {
+    font-size: var(--tamaño-texto);
+    font-weight: bold;
+}
+
+
+.business img{
+    width: 50px;
+    height: 50px;
+}
+
+.business--logos{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.business--logos ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+.business--logos ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    width:180px;
+    height: 90px;
+    background: #efefef;
+    transform: rotate(-30deg) skew(25deg);
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+    transition: 300ms;
+    padding-left: 20px;
+}
+
+.business--logos ul li a:before,
+.business--logos ul li a:after {
+  content: '';
+  position: absolute;
+  background: var(--color-cafe);
+  transition: 300ms;
+}
+
+
+.business--logos ul li a:before {
+    top:10px;
+    left:-20px;
+    height:100%;
+    width:20px;
+    transform: rotate(0deg) skewY(-45deg);
+  }
+.business--logos ul li  a:after {
+    bottom:-20px;
+    left:-10px;
+    height:20px;
+    width:100%;
+    transform: rotate(0deg) skewX(-45deg);
+  }
+.business--logos ul li  a:hover {
+    transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+    box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+    color: var(--color-naranja);
+}
+
+.business--logos ul li:hover:nth-child(1) a{
+    background: var(--color-blanco);
+  }
+.business--logos ul li:hover:nth-child(1) a:before{
+    background: var(--color-blanco);
+  }
+.business--logos ul li:hover:nth-child(1) a:after{
+    background: var(--color-naranja);
+}
+
+.business--logos{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.business--text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+
+.business--text h1 {
+    font-size: var(--tamaño-titulo);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+
+.business--text h2{
+    font-size: var(--tamaño-subtitulo);
+    font-weight: 100;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* ---Seccion Carrusel */
+
+.Carrusel{
+    height: 700px;
+    min-height: 700px;
+}
+
+.carousel span{
+    color: var(--color-negro);
+    font-size: var(--tamaño-texto);
+    font-weight: bold;
+}
+
+
+
+.carousel .carousel-inner .carousel-item  .carrusuel-contenido .img-contenido{
+    position: absolute;
+    z-index: 9999;
+    top: 10%;
+    width: 75%;
+    height: 100%;
+  
+}
+
+
+
+.carousel .visualizadores li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.carousel .visualizadores li a{
+    text-decoration: none;
+    color: var(--color-negro);
+}
+
+.carousel .visualizadores li a i, .carousel .visualizadores li a p{
+    font-size: 70px;
+    font-weight: 100;
+
+}
+
+.carousel img{
+    border-radius: 20px;
+    box-shadow: 5px 12px 30px var(--color-cafe);
+}
+
+.carousel .visualizadores li a i:hover{
+    color: var(--color-naranja);
+}
+
+.carousel .visualizadores li a p:hover{
+    color: var(--color-amarillo);
+}
+
+.carousel .visualizadores li{
+    backdrop-filter: blur(9px) saturate(180%);
+    -webkit-backdrop-filter: blur(9px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.72);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+
+
+.carousel .visualizadores{
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease-in-out .2s;    
+}
+
+.carrusuel-contenido:hover .visualizadores{
+    visibility: visible;
+    opacity: 1;
+
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    .business--text h1{
+        font-size: 40px;
+    }
+
+    .business--text h2{
+        font-size: 20px;
+        
+    }
+
+    .business--logos ul{
+        padding-top: 40px;
+        
+    }
+
+    
+}
+
+
+@media screen and (max-width: 400px) {
+    .carousel .visualizadores li a i, .carousel .visualizadores li a p{
+        font-size: 15px;
+        font-weight: 100;
+    
+    }
+
+    .imagen-footer{
+        width: 200px;
+    }
+}

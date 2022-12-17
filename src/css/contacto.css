@@ -1,0 +1,108 @@
+/* ---Seccion contacto */
+
+.contenedor-contacto{
+    padding-top: 20vh;
+}
+
+
+/* Acordeon */
+
+.accordion-header {
+    background-color: var(--color-naranja);
+}
+
+.accordion h1{
+    font-size: var(--tamaño-titulo);
+    font-weight: bold;
+}
+
+.accordion{
+    height: 700px;
+}
+
+.accordion h2 button{
+    font-size: var(--tamaño-texto);
+    font-weight: bold;
+    color: var(--color-turqueza);
+}
+
+.accordion p{
+    font-size: var(--tamaño-texto);
+    font-weight: 500;
+}
+
+/* contactame */
+.contenedor-formulario{
+    height: 800px;
+}
+
+
+.contact-ways img{
+    height: 100px;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+}
+.contact-ways ul li{
+    display: inline-block;
+}
+
+.formulario{
+    height: 550px;
+    backdrop-filter: blur(22px) saturate(103%);
+    -webkit-backdrop-filter: blur(22px) saturate(103%);
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.formulario label{
+    font-size: var(--tamaño-subtitulo);
+    font-weight: 100;
+
+}
+
+.formulario input, .formulario textarea{
+
+    padding-left: 20px;
+    
+}
+
+.formulario .contacto-boton {
+    width: 50%;
+}
+
+.formulario-redes {
+    height: 550px;
+    backdrop-filter: blur(22px) saturate(103%);
+    -webkit-backdrop-filter: blur(22px) saturate(103%);
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.formulario-redes h2{
+    font-size: var(--tamaño-subtitulo);
+    font-weight: bold;
+}
+
+
+.formulario-redes a{
+    color: black;
+}
+
+
+@media screen and (max-width: 700px) {
+    .accordion{
+        margin-bottom: 30vh;
+    }
+
+    .accordion h1{
+        font-size: 40px;
+    }
+
+    .contenedor-formulario{
+        height: 1500px;
+        margin-bottom: 20vh;
+    }
+    
+}

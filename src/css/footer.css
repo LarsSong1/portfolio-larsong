@@ -1,0 +1,25 @@
+.footer{
+    margin-top: 5%;
+    background-color: var(--color-negro);
+}
+
+
+.footer div a{
+    text-decoration: none;
+    color: var(--color-fondo);
+}
+
+.footer h6{
+    color: var(--color-blanco);
+}
+.footer a:hover{
+    color: var(--color-naranja);
+}
+
+.footer p{
+    color: var(--color-fondo);
+}
+
+.footer p:hover{
+    color: var(--color-amarillo);
+}
